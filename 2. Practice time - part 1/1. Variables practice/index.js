@@ -4,4 +4,10 @@
 
 // Log fullName to the console
 
+let firstName = Riaya
+let lastName = Edy
+
+let fullName = firstName + lastName
+
+console.log(fullName)
 

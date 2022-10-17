@@ -8,6 +8,10 @@ let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
 // 1. Check if leadsFromLocalStorage is truthy
 // 2. If so, set myLeads to its value and call renderLeads()
 
+if (leadsFromLocalStorage = true){
+    myLeads = leadsFromLocalStorage
+    renderLeads()
+}
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""

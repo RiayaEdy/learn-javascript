@@ -8,10 +8,10 @@ const leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
 
 if (leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage
-    renderLeads(myLeads)
+    renderLeads(myLeads) // so it possible to use it instead the body but not refering 'myLeads' directly -- put argument into function
 }
 
-function renderLeads(leads) {
+function renderLeads(leads) { // refactor - reusability
     let listItems = ""
     for (let i = 0; i < myLeads.length; i++) {
         listItems += `

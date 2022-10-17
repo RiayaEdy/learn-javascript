@@ -1,7 +1,7 @@
 let cards = [7, 4]
-cards.push(6)
+cards.push(6) // >>> method / function on an object 
 //console.log(cards)
-
+console.log(cards)
 // Push the newMessage to the messages array, and then log out the array
 
 let messages = [
@@ -12,5 +12,11 @@ let messages = [
 
 let newMessage = "Same here!"
 
+messages.push(newMessage)
 
+console.log(messages)
+
+messages.pop() // opposite of push
+
+console.log(messages)
 

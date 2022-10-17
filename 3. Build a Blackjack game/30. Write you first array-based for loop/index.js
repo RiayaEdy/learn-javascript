@@ -4,3 +4,7 @@ let cards = [7, 3, 9]
 // Use cards.length to specify how long the loop should run
 
 
+
+for ( let i = 0; i < cards.length; i++  ) {   // i++ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> i += 1
+console.log(cards[i])
+}

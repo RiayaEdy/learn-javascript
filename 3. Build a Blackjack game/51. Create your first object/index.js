@@ -3,3 +3,12 @@
 // Log out at least two of the keys using the dot notation
 
 
+let airbnb = {
+    type : "castle",
+    city : ["Sydney", "Melbourne", "Canbera"],
+    price : 200,
+    hasDiscount : true
+}
+
+console.log(airbnb.price)
+console.log(airbnb["hasDiscount"])

@@ -1,10 +1,10 @@
-// const credits = 0
+const credits = 0
 
-// if (credits) {
-//     console.log("Let's play 🎰")
-// } else {
-//     console.log("Sorry, you have no credits 😭")
-// }
+if (credits > 0) {
+    console.log("Let's play 🎰")
+} else {
+    console.log("Sorry, you have no credits 😭")
+}
 
 // truthy
 // falsy
@@ -26,3 +26,15 @@ if (currentViewers) {
     // do something , e.g. notify the live streamers
     console.log("we have viewers")
 }
+
+/* undefined => 
+let currentViewers            or 
+
+let currentViewers = {}       or
+
+console.log key that doesnt exist like :
+
+let currentViewers = ["jane"]
+console.log(currentViewers[5])
+
+*/

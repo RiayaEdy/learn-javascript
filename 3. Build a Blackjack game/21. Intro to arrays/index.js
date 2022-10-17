@@ -9,3 +9,10 @@ let featuredPosts = [
 // Create an array that lists your i.e. experience, education, licenses, skills or similar
 // The items of the array should be strings
 
+let educationInAustralia = [
+    "Advanced Diploma of Hospitality Management",
+    "Advanced Diploma of Information Technology",
+    "Software Developer Course"
+]
+
+console.log( featuredPosts.length ) // length start counting from 1

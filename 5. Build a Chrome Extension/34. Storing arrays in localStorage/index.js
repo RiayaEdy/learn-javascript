@@ -1,4 +1,12 @@
-let myLeads = ["www.awesomelead.com"]
+let myLeads = `["www.awesomelead.com"]`
+
+myLeads =JSON.parse(myLeads) // to turn the myLeads string into an array
+
+myLeads.push("www.lead2.com") // to push new value to the array
+
+myLeads = JSON.stringify(myLeads) // turn the array into a string again
+
+console.log(typeof myLeads) // verify the string use typeof that its string
 
 
 
